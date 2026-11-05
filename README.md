@@ -42,6 +42,7 @@ Para testar o vale-refeição, selecione essa modalidade na interface. O backend
 
 ## Organização do código
 
+```text
 fura_fila_poc_oop/
 │
 ├── main.py
@@ -75,6 +76,7 @@ fura_fila_poc_oop/
 └── routes/
     ├── __init__.py
     └── handler.py
+```
 
 - **`main.py`:** inicializa o servidor HTTP.
 - **`config.py`:** reúne configurações, desconto e status dos pedidos.
