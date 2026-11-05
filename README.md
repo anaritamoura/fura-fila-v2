@@ -1,5 +1,9 @@
 # Fura-Fila (PoC final)
 
+<p align="center">
+  <img src="assets/images/logo-fura-fila.png" alt="Logo do Fura-Fila" width="300">
+</p>
+
 **O app da cantina do CESAR para o aluno não perder o intervalo na fila.**
 
 Hackathon Relâmpago #1 de FDS 2026.2 (CESAR School), Entrega 2.
@@ -38,8 +42,43 @@ Para testar o vale-refeição, selecione essa modalidade na interface. O backend
 
 ## Organização do código
 
+fura_fila_poc_oop/
+│
+├── main.py
+├── config.py
+├── index.html
+│
+├── assets/
+│   └── images/
+│       └── logo-fura-fila.png
+│
+├── data/
+│   ├── __init__.py
+│   ├── cardapio.py
+│   └── pedidos.py
+│
+├── services/
+│   ├── __init__.py
+│   ├── pedido_service.py
+│   ├── pagamento_service.py
+│   └── utilidades.py
+│
+├── payments/
+│   ├── __init__.py
+│   ├── base.py
+│   ├── pix.py
+│   ├── cartao.py
+│   ├── dinheiro.py
+│   ├── vale_refeicao.py
+│   └── factory.py
+│
+└── routes/
+    ├── __init__.py
+    └── handler.py
+
 - **`main.py`:** inicializa o servidor HTTP.
 - **`config.py`:** reúne configurações, desconto e status dos pedidos.
+- **`assets/`:** armazena os recursos visuais do projeto, incluindo a logo em assets/images/.
 - **`data/`:** contém o cardápio e o armazenamento temporário dos pedidos.
 - **`services/`:** concentra as regras de negócio de pedidos e a coordenação dos pagamentos.
 - **`payments/`:** contém a classe abstrata `MeioPagamento` e as implementações de Pix, cartão, dinheiro e vale-refeição.
