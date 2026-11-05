@@ -110,3 +110,11 @@ Nesta versão, a estrutura foi refatorada para aplicar princípios de projeto or
 A função `pagar()` foi simplificada: ela valida o pedido, seleciona a implementação de pagamento e aplica o resultado. As regras específicas de cada modalidade ficam nos respectivos métodos `processar()`.
 
 A comparação numérica da complexidade ciclomática entre a versão inicial e esta PoC deve ser feita com a mesma ferramenta e configuração nas duas versões. Assim, é possível demonstrar a distribuição dos pontos de decisão sem afirmar uma redução numérica que ainda não tenha sido medida.
+
+---
+
+## 🎥 Demonstração do Projeto
+
+Confira a execução do projeto no vídeo abaixo:
+
+[▶️ Assistir à demonstração](https://drive.google.com/file/d/17aPif14wXS5T5jS6EUbLMl_TFmtjDvgI/view?usp=sharing)
