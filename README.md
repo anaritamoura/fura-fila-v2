@@ -1,7 +1,7 @@
 # Fura-Fila (PoC final)
 
 <p align="center">
-  <img src="./assets/images/logo-fura-fila.png" alt="Logo do Fura-Fila" width="300">
+  <img src="fura_fila_poc_oop/assets/images/logo-fura-fila.png" alt="Logo do Fura-Fila" width="300">
 </p>
 
 **O app da cantina do CESAR para o aluno não perder o intervalo na fila.**
