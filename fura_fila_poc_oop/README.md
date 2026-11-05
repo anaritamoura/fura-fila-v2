@@ -2,7 +2,7 @@
 
 **O app da cantina do CESAR para o aluno não perder o intervalo na fila.**
 
-Hackathon Relâmpago #1 de FDS 2026.2 (CESAR School), Entrega 1.
+Hackathon Relâmpago #1 de FDS 2026.2 (CESAR School), Entrega 2.
 
 ## O que é o app
 
